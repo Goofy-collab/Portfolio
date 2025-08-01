@@ -55,7 +55,7 @@ I'm passionate about Android development, research and documentation, and teachi
 Feel free to reach out for collaboration or inquiries.
 
 - 📧 Email: [matvy2006@gmail.com](mailto:matvy2006@gmail.com)  
-- 💻 GitHub: [github](https://github.com/vivianrono)
+- 💻 GitHub: [https://github.com/Goofy-collab](https://github.com/vivianrono)
 
 ---
 
@@ -63,7 +63,7 @@ Feel free to reach out for collaboration or inquiries.
 
 This portfolio is hosted on **GitHub Pages** and can be viewed at:
 
-👉 [https://vivianrono.github.io/vivian-portfolio/](https://vivianrono.github.io/vivian-portfolio/)
+👉 [ https://goofy-collab.github.io/Portfolio/](https://vivianrono.github.io/vivian-portfolio/)
 
 ---
 
