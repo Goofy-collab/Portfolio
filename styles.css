@@ -1,0 +1,154 @@
+/* Reset and base styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+/* Container */
+.container {
+  width: 90%;
+  max-width: 1000px;
+  margin: auto;
+  padding: 20px 0;
+}
+
+/* Header */
+header {
+  background-color: #4a90e2;
+  color: white;
+  padding: 40px 0;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 2.8rem;
+  margin-bottom: 10px;
+}
+
+header p {
+  font-size: 1.2rem;
+  font-style: italic;
+}
+
+/* Navigation */
+nav {
+  background-color: #eee;
+  padding: 15px 0;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: #4a90e2;
+}
+
+/* Sections */
+.section {
+  padding: 40px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.section h2 {
+  color: #4a90e2;
+  margin-bottom: 20px;
+}
+
+/* About / Education / Interests */
+ul.skills-list {
+  list-style-type: square;
+  padding-left: 20px;
+}
+
+.skills-list li {
+  margin-bottom: 10px;
+}
+
+/* Contact Form */
+form {
+  background-color: #fff;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  max-width: 500px;
+  margin-top: 10px;
+}
+
+form label {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #bbb;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+form button {
+  margin-top: 15px;
+  background-color: #4a90e2;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+form button:hover {
+  background-color: #357ab8;
+}
+
+/* Footer */
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 0.9rem;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  header h1 {
+    font-size: 2rem;
+  }
+
+  nav ul li {
+    display: block;
+    margin: 10px 0;
+  }
+
+  form {
+    width: 100%;
+  }
+}
